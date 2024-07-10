@@ -1,0 +1,1453 @@
+2024-03-31 09:14:27.413 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-31 09:14:29.081 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-31 09:14:29.083 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-31 09:14:29.085 -05:00 [INF] Hosting environment: Development
+2024-03-31 09:14:29.086 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-31 09:14:31.285 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger - null null
+2024-03-31 09:14:32.561 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger - 301 0 null 1284.7039ms
+2024-03-31 09:14:32.572 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-31 09:14:32.712 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 140.6139ms
+2024-03-31 09:14:32.730 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui.css - null null
+2024-03-31 09:14:32.733 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - null null
+2024-03-31 09:14:32.742 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-31 09:14:32.749 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-31 09:14:32.749 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-31 09:14:32.769 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 20.4674ms
+2024-03-31 09:14:32.784 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-31 09:14:32.797 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 12.6874ms
+2024-03-31 09:14:32.818 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-31 09:14:32.826 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui.css - 200 143943 text/css 96.4125ms
+2024-03-31 09:14:32.898 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-31 09:14:32.929 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-31 09:14:32.931 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 195.1422ms
+2024-03-31 09:14:32.950 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-31 09:14:32.966 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 232.7357ms
+2024-03-31 09:14:32.970 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-31 09:14:32.971 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - null null
+2024-03-31 09:14:32.979 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 50.0799ms
+2024-03-31 09:14:32.981 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 231.7308ms
+2024-03-31 09:14:33.010 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-31 09:14:33.022 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 51.1217ms
+2024-03-31 09:14:33.265 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-31 09:14:33.282 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-31 09:14:33.616 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 351.6318ms
+2024-03-31 09:14:34.244 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-31 09:14:34.276 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.3762ms
+2024-03-31 09:14:41.897 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 09:14:41.905 -05:00 [INF] CORS policy execution successful.
+2024-03-31 09:14:43.122 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 09:14:44.037 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 09:14:47.005 -05:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 09:14:47.140 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 09:14:47.159 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 5262.0988ms
+2024-03-31 09:19:00.737 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/2 - null null
+2024-03-31 09:19:00.760 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 09:19:00.766 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 09:19:01.324 -05:00 [INF] Executed DbCommand (132ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 09:19:01.343 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 09:19:01.348 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 09:19:01.353 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 09:19:01.356 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/2 - 200 null application/json; charset=utf-8 619.7967ms
+2024-03-31 09:58:58.375 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 09:58:58.383 -05:00 [INF] CORS policy execution successful.
+2024-03-31 09:58:58.389 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 09:58:58.396 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 09:58:58.438 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 09:58:58.443 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 09:58:58.444 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 94.0837ms
+2024-03-31 10:00:21.191 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 10:00:21.206 -05:00 [INF] CORS policy execution successful.
+2024-03-31 10:00:21.208 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 10:00:21.212 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 10:00:21.218 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 10:00:21.223 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 10:00:21.225 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 34.6156ms
+2024-03-31 10:01:30.401 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 10:01:30.410 -05:00 [INF] CORS policy execution successful.
+2024-03-31 10:01:30.412 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 10:01:30.414 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 10:01:30.420 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 10:01:30.425 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 10:01:30.429 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 29.6143ms
+2024-03-31 10:26:56.106 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/articulos - application/json 92
+2024-03-31 10:26:56.113 -05:00 [INF] CORS policy execution successful.
+2024-03-31 10:26:56.115 -05:00 [INF] Executing endpoint 'HTTP: POST /articulos'
+2024-03-31 10:26:56.148 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 10:27:06.986 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[@p0='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [DBO].[Products] ([Cost], [FechaActualiza], [FechaIngresa], [Price], [ProductDescripcion], [Stock], [UsuarioActualiza], [UsuarioIngresa])
+OUTPUT INSERTED.[ProductCode]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-03-31 10:27:07.025 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 10:27:07.028 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 10:27:07.033 -05:00 [INF] Executed endpoint 'HTTP: POST /articulos'
+2024-03-31 10:27:07.035 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/articulos - 200 null application/json; charset=utf-8 10929.3541ms
+2024-03-31 11:19:19.838 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/4 - null null
+2024-03-31 11:19:19.848 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:19.854 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/4 - 204 null null 16.3903ms
+2024-03-31 11:19:19.866 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/4 - application/json null
+2024-03-31 11:19:19.869 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:19.872 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:20.137 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:20.204 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:19:20.240 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:19:20.256 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:19:20.320 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:20.337 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/4 - 200 null application/json; charset=utf-8 470.9366ms
+2024-03-31 11:19:36.931 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:19:36.936 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:36.939 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:36.941 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:36.948 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:19:36.961 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:36.965 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 34.188ms
+2024-03-31 11:19:40.449 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/5 - null null
+2024-03-31 11:19:40.454 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:40.457 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/5 - 204 null null 8.0769ms
+2024-03-31 11:19:40.470 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/5 - application/json null
+2024-03-31 11:19:40.475 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:40.477 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:40.481 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:40.486 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:19:40.489 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:19:40.494 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:19:40.496 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:40.499 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/5 - 200 null application/json; charset=utf-8 29.4175ms
+2024-03-31 11:19:43.727 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:19:43.733 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:43.735 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:43.738 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:43.743 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:19:43.750 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:43.752 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 25.8046ms
+2024-03-31 11:19:46.270 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/9 - null null
+2024-03-31 11:19:46.287 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:46.290 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/9 - 204 null null 20.4866ms
+2024-03-31 11:19:46.297 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/9 - application/json null
+2024-03-31 11:19:46.301 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:46.303 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:46.308 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:46.319 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:19:46.323 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:19:46.325 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:19:46.326 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:46.327 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/9 - 200 null application/json; charset=utf-8 30.424ms
+2024-03-31 11:19:49.596 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:19:49.602 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:49.607 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:49.610 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:49.614 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:19:49.621 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:19:49.625 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 28.9301ms
+2024-03-31 11:19:51.095 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - null null
+2024-03-31 11:19:51.099 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:51.101 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - 204 null null 6.2379ms
+2024-03-31 11:19:51.109 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/1 - application/json null
+2024-03-31 11:19:51.120 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:19:51.123 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:51.127 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:19:51.132 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:19:51.136 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:19:51.138 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:19:51.139 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:19:51.141 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/1 - 200 null application/json; charset=utf-8 32.1095ms
+2024-03-31 11:20:04.176 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - null null
+2024-03-31 11:20:04.180 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:04.181 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - 204 null null 5.9706ms
+2024-03-31 11:20:04.190 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/1 - application/json null
+2024-03-31 11:20:04.196 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:04.198 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:04.200 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:04.206 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:20:04.213 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:20:04.214 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:20:04.217 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:04.223 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/1 - 200 null application/json; charset=utf-8 33.9037ms
+2024-03-31 11:20:05.703 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:20:05.715 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:05.717 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:05.719 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:05.724 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:20:05.731 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:05.734 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 30.8445ms
+2024-03-31 11:20:07.411 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/2 - null null
+2024-03-31 11:20:07.422 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:07.425 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/2 - 204 null null 13.7669ms
+2024-03-31 11:20:07.436 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/2 - application/json null
+2024-03-31 11:20:07.445 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:07.446 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:07.448 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:07.453 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:20:07.457 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:20:07.458 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:20:07.460 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:07.461 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/2 - 200 null application/json; charset=utf-8 25.4435ms
+2024-03-31 11:20:09.542 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:20:09.551 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:09.555 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:09.559 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:09.564 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:20:09.574 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:09.578 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 35.8594ms
+2024-03-31 11:20:13.522 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/5 - null null
+2024-03-31 11:20:13.526 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:13.528 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/5 - 204 null null 5.9312ms
+2024-03-31 11:20:13.544 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/5 - application/json null
+2024-03-31 11:20:13.552 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:13.554 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:13.559 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:13.568 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:20:13.573 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:20:13.574 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:20:13.575 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:20:13.579 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/5 - 200 null application/json; charset=utf-8 35.2261ms
+2024-03-31 11:20:16.466 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:20:16.479 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:20:16.481 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:16.483 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:20:16.489 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:20:16.496 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:20:16.500 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 34.4661ms
+2024-03-31 11:21:19.180 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:21:19.196 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:21:19.198 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:21:19.200 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:21:19.205 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:21:19.212 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:21:19.214 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 34.1135ms
+2024-03-31 11:24:12.228 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:24:12.255 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:24:12.258 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:12.261 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:24:12.300 -05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:24:12.309 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:12.311 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 83.588ms
+2024-03-31 11:24:14.036 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:24:14.044 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:24:14.053 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:14.056 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:24:14.063 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:24:14.083 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:14.085 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 48.8594ms
+2024-03-31 11:24:54.169 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:24:54.181 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:24:54.184 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:54.189 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:24:54.196 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:24:54.205 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:24:54.208 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 39.6819ms
+2024-03-31 11:25:07.051 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:25:07.055 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:07.057 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:07.059 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:25:07.066 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:25:07.071 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:07.073 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 22.3564ms
+2024-03-31 11:25:26.030 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - null null
+2024-03-31 11:25:26.036 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:26.040 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/1 - 204 null null 9.6316ms
+2024-03-31 11:25:26.054 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/1 - application/json null
+2024-03-31 11:25:26.060 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:26.062 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:25:26.065 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:25:26.070 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:25:26.074 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:25:26.076 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:25:26.078 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:25:26.079 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/1 - 200 null application/json; charset=utf-8 25.0689ms
+2024-03-31 11:25:32.671 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/ - null null
+2024-03-31 11:25:32.676 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:32.678 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/ - 204 null null 6.9903ms
+2024-03-31 11:25:32.689 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos/ - application/json 72
+2024-03-31 11:25:32.691 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:25:32.695 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:32.704 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:32.706 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-31 11:25:32.708 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:32.713 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:25:32.715 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:25:32.725 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:25:32.732 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:32.734 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 43.4609ms
+2024-03-31 11:25:38.771 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DBO].[Products] SET [Cost] = @p0, [FechaActualiza] = @p1, [FechaIngresa] = @p2, [Price] = @p3, [ProductDescripcion] = @p4, [Stock] = @p5, [UsuarioActualiza] = @p6, [UsuarioIngresa] = @p7
+OUTPUT 1
+WHERE [ProductCode] = @p8;
+2024-03-31 11:25:40.521 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:25:40.524 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:25:40.527 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-31 11:25:40.532 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos/ - 200 null application/json; charset=utf-8 7843.8009ms
+2024-03-31 11:25:44.696 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:25:44.701 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:25:44.702 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:44.707 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:25:44.719 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:25:44.724 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:25:44.727 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 30.4549ms
+2024-03-31 11:26:15.967 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/ - null null
+2024-03-31 11:26:15.978 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:26:15.992 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:15.996 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:16.000 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/ - 204 null null 38.3978ms
+2024-03-31 11:26:16.004 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:16.022 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/articulos/ - application/json 79
+2024-03-31 11:26:16.024 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:26:16.029 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:16.039 -05:00 [INF] Executing endpoint 'HTTP: POST /articulos'
+2024-03-31 11:26:16.043 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:26:16.045 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:26:16.050 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:18.001 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 2022.9342ms
+2024-03-31 11:26:18.013 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [DBO].[Products] ([Cost], [FechaActualiza], [FechaIngresa], [Price], [ProductDescripcion], [Stock], [UsuarioActualiza], [UsuarioIngresa])
+OUTPUT INSERTED.[ProductCode]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-03-31 11:26:18.019 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:26:18.021 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:26:18.022 -05:00 [INF] Executed endpoint 'HTTP: POST /articulos'
+2024-03-31 11:26:18.025 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/articulos/ - 200 null application/json; charset=utf-8 2003.272ms
+2024-03-31 11:26:19.483 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:26:19.490 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:19.492 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:19.495 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:26:19.500 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:26:19.504 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:19.506 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 23.0075ms
+2024-03-31 11:26:29.922 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos/2 - null null
+2024-03-31 11:26:29.930 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:29.933 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos/2 - 204 null null 10.8239ms
+2024-03-31 11:26:29.945 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos/2 - application/json null
+2024-03-31 11:26:29.952 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:29.953 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:26:29.956 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:26:29.961 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+WHERE [p].[ProductCode] = @__p_0
+2024-03-31 11:26:29.964 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:26:29.966 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-31 11:26:29.968 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos/{id}'
+2024-03-31 11:26:29.970 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos/2 - 200 null application/json; charset=utf-8 24.7341ms
+2024-03-31 11:26:32.773 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 11:26:32.777 -05:00 [INF] CORS policy execution successful.
+2024-03-31 11:26:32.778 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:32.780 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 11:26:32.787 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 11:26:32.795 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 11:26:32.800 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 27.068ms
+2024-03-31 11:48:21.016 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-31 11:48:22.034 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-31 11:48:22.039 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-31 11:48:22.042 -05:00 [INF] Hosting environment: Development
+2024-03-31 11:48:22.043 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-31 11:48:22.575 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-31 11:48:22.889 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 317.9165ms
+2024-03-31 11:48:22.905 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-31 11:48:22.914 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 9.9937ms
+2024-03-31 11:48:22.922 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-31 11:48:22.960 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.5711ms
+2024-03-31 11:48:23.198 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-31 11:48:23.212 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-31 11:48:23.403 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 205.6988ms
+2024-03-31 11:51:05.539 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - null null
+2024-03-31 11:51:06.390 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 11:51:06.437 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:51:06.440 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 11:51:06.444 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 11:51:06.446 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 909.3282ms
+2024-03-31 11:51:29.705 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-31 11:51:30.180 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-31 11:51:30.182 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-31 11:51:30.183 -05:00 [INF] Hosting environment: Development
+2024-03-31 11:51:30.185 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-31 11:51:30.822 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-31 11:51:31.039 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 221.899ms
+2024-03-31 11:51:31.054 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-31 11:51:31.055 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-31 11:51:31.064 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 9.9489ms
+2024-03-31 11:51:31.099 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.6539ms
+2024-03-31 11:51:31.177 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-31 11:51:31.189 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-31 11:51:31.342 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.9227ms
+2024-03-31 11:51:42.446 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/0 - null null
+2024-03-31 11:51:42.512 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 11:51:42.526 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 11:51:42.529 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 11:51:42.534 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 11:51:42.537 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/0 - 200 null application/json; charset=utf-8 90.13ms
+2024-03-31 12:09:30.344 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 49
+2024-03-31 12:09:30.351 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:09:30.368 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:09:35.437 -05:00 [INF] Executed DbCommand (648ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:09:35.704 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:09:35.707 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:09:35.714 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:09:35.726 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 5381.8239ms
+2024-03-31 12:28:26.511 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 12:28:26.522 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:28:26.525 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 15.4732ms
+2024-03-31 12:28:26.539 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 12:28:26.542 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:28:26.546 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:28:26.588 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:28:26.594 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:28:26.598 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:28:26.602 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:28:26.605 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 65.569ms
+2024-03-31 12:28:26.612 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 12:28:26.616 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:28:26.617 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.2066ms
+2024-03-31 12:28:26.622 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 12:28:26.628 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:28:26.630 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:28:26.633 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:28:26.634 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 12:28:26.636 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:28:26.639 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 16.7229ms
+2024-03-31 12:28:44.349 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 12:28:44.357 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:28:44.360 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 12:28:44.364 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 12:28:44.643 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 12:28:44.696 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 12:28:44.699 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 349.9884ms
+2024-03-31 12:29:51.687 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 12:29:51.698 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:29:51.700 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 13.0476ms
+2024-03-31 12:29:51.715 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 12:29:51.721 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:29:51.724 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:29:51.732 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:29:51.737 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:29:51.740 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:29:51.742 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:29:51.744 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 28.6242ms
+2024-03-31 12:29:51.752 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 12:29:51.757 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:29:51.758 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.4138ms
+2024-03-31 12:29:51.764 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 12:29:51.767 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:29:51.769 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:29:51.771 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:29:51.773 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 12:29:51.775 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:29:51.778 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 13.4083ms
+2024-03-31 12:31:15.912 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 12:31:15.922 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:31:15.923 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 12.3941ms
+2024-03-31 12:31:15.937 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 12:31:15.940 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:31:15.941 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:31:15.947 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:31:15.951 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:31:15.954 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:31:15.957 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:31:15.959 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 22.6083ms
+2024-03-31 12:31:15.967 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 12:31:15.971 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:31:15.973 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 6.0687ms
+2024-03-31 12:31:15.977 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 12:31:15.980 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:31:15.983 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:31:15.985 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:31:15.987 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 12:31:15.989 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:31:15.990 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 13.5962ms
+2024-03-31 12:48:57.305 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 12:48:57.315 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:48:57.317 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 17.2853ms
+2024-03-31 12:48:57.327 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 12:48:57.331 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:48:57.333 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:48:57.466 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:48:57.475 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:48:57.480 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:48:57.482 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:48:57.485 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 158.0495ms
+2024-03-31 12:48:57.493 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 12:48:57.498 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:48:57.499 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 6.2454ms
+2024-03-31 12:48:57.506 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 12:48:57.511 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:48:57.512 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:48:57.514 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:48:57.516 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 12:48:57.518 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:48:57.521 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 15.0231ms
+2024-03-31 12:48:59.209 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 12:48:59.216 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:48:59.217 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 12:48:59.221 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 12:48:59.235 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 12:48:59.244 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 12:48:59.247 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 37.8136ms
+2024-03-31 12:57:36.937 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 12:57:36.948 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:57:36.951 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 13.5117ms
+2024-03-31 12:57:36.970 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 12:57:36.973 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:57:36.975 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 12:57:36.997 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 12:57:37.004 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:57:37.006 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 12:57:37.008 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 12:57:37.010 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 40.5431ms
+2024-03-31 12:57:37.017 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 12:57:37.020 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:57:37.022 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.1711ms
+2024-03-31 12:57:37.030 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 12:57:37.036 -05:00 [INF] CORS policy execution successful.
+2024-03-31 12:57:37.038 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:57:37.040 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 12:57:37.041 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 12:57:37.043 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 12:57:37.046 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 16.2738ms
+2024-03-31 12:59:13.496 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-31 12:59:13.929 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-31 12:59:13.933 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-31 12:59:13.935 -05:00 [INF] Hosting environment: Development
+2024-03-31 12:59:13.936 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-31 12:59:14.738 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-31 12:59:15.170 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 439.8441ms
+2024-03-31 12:59:15.183 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-31 12:59:15.188 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-31 12:59:15.194 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 10.7343ms
+2024-03-31 12:59:15.256 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.3206ms
+2024-03-31 12:59:15.363 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-31 12:59:15.379 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-31 12:59:15.539 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.7125ms
+2024-03-31 12:59:25.688 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/0 - null null
+2024-03-31 12:59:25.778 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 12:59:25.785 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 12:59:25.788 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/0 - 401 0 null 99.629ms
+2024-03-31 13:00:00.311 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:00:00.320 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:00:00.325 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 13.8031ms
+2024-03-31 13:00:00.345 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:00:00.352 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:00:00.358 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:00:02.198 -05:00 [INF] Executed DbCommand (79ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:00:02.382 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:00:02.385 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:00:02.390 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:00:02.416 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 2071.1553ms
+2024-03-31 13:00:02.423 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:00:02.429 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:00:02.432 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 8.7682ms
+2024-03-31 13:00:02.436 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:00:02.440 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:00:02.447 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:00:02.450 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:00:02.453 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 16.2067ms
+2024-03-31 13:03:04.764 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 49
+2024-03-31 13:03:04.771 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:03:04.772 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:03:04.839 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:03:04.847 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:03:04.849 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:03:04.850 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:03:04.852 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 90.9546ms
+2024-03-31 13:04:01.168 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 52
+2024-03-31 13:04:01.185 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:04:01.288 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:04:01.294 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:04:01.296 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:04:01.299 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:04:01.301 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 138.3573ms
+2024-03-31 13:04:39.283 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/0 - null null
+2024-03-31 13:04:39.299 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:04:39.301 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:04:39.303 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/0 - 401 0 null 19.5381ms
+2024-03-31 13:05:11.587 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/0 - null null
+2024-03-31 13:05:11.797 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:05:11.801 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:05:11.805 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 13:05:11.810 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:05:11.813 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/0 - 200 null application/json; charset=utf-8 227.4884ms
+2024-03-31 13:14:39.205 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:14:39.210 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:14:39.211 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 7.5213ms
+2024-03-31 13:14:39.221 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 45
+2024-03-31 13:14:39.224 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:14:39.226 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:14:39.252 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:14:39.259 -05:00 [INF] Setting HTTP status code 400.
+2024-03-31 13:14:39.261 -05:00 [INF] Writing value of type 'String' as Json.
+2024-03-31 13:14:39.266 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:14:39.270 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 400 null application/json; charset=utf-8 48.8047ms
+2024-03-31 13:16:49.406 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:16:49.419 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:49.420 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 15.8389ms
+2024-03-31 13:16:49.439 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:16:49.446 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:49.450 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:16:49.473 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:16:49.476 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:16:49.483 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:16:49.490 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:16:49.491 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:16:49.492 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:16:49.495 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 56.7594ms
+2024-03-31 13:16:49.506 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:16:49.511 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:49.513 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 6.1614ms
+2024-03-31 13:16:49.518 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:16:49.522 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:49.523 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:16:49.530 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:16:49.533 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:16:49.537 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:16:49.540 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 21.9723ms
+2024-03-31 13:16:54.533 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:16:54.538 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:54.542 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 8.9446ms
+2024-03-31 13:16:54.553 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:16:54.560 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:54.562 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:16:54.568 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:16:54.572 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:16:54.579 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:16:54.583 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:16:54.585 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:16:54.587 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:16:54.591 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 38.1629ms
+2024-03-31 13:16:54.607 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:16:54.612 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:54.613 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.9712ms
+2024-03-31 13:16:54.619 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:16:54.622 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:16:54.624 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:16:54.633 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:16:54.637 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:16:54.640 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:16:54.643 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 24.6146ms
+2024-03-31 13:20:54.901 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:20:54.910 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:20:54.912 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 11.9904ms
+2024-03-31 13:20:54.929 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:20:54.933 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:20:54.935 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:20:54.941 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:20:54.943 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:20:55.305 -05:00 [INF] Executed DbCommand (359ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:20:55.314 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:20:55.316 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:20:55.318 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:20:55.321 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 391.4511ms
+2024-03-31 13:20:55.327 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:20:55.333 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:20:55.335 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 8.3917ms
+2024-03-31 13:20:55.342 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:20:55.348 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:20:55.349 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:20:55.351 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:20:55.353 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 13:20:55.355 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:20:55.358 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 16.579ms
+2024-03-31 13:21:23.913 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos - null null
+2024-03-31 13:21:23.929 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:21:23.930 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos - 204 null null 17.6352ms
+2024-03-31 13:21:23.941 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 13:21:23.946 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:21:23.948 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 13:21:23.950 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 13:21:24.082 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 13:21:24.133 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 13:21:24.138 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 196.9191ms
+2024-03-31 13:21:43.731 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 13:21:43.734 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:21:43.736 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:21:43.738 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 401 0 null 7.5762ms
+2024-03-31 13:22:32.329 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos - null null
+2024-03-31 13:22:32.345 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:22:32.347 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos - 204 null null 18.036ms
+2024-03-31 13:22:32.357 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 13:22:32.363 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:22:32.365 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:22:32.371 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:22:32.373 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:22:32.374 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:22:32.375 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 401 0 null 18.1193ms
+2024-03-31 13:27:34.783 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:27:34.791 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:27:34.794 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 13.2657ms
+2024-03-31 13:27:34.811 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:27:34.815 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:27:34.818 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:27:34.847 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:27:34.857 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:27:34.859 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:27:34.861 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:27:34.864 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 53.4501ms
+2024-03-31 13:27:34.879 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:27:34.883 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:27:34.886 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 6.9406ms
+2024-03-31 13:27:34.892 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:27:34.896 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:27:34.897 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:27:34.899 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:27:34.901 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 8.1909ms
+2024-03-31 13:28:42.820 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:28:42.833 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:28:42.834 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.7938ms
+2024-03-31 13:28:42.848 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:28:42.852 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:28:42.854 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:28:42.861 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:28:42.865 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:28:42.866 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:28:42.868 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:28:42.869 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 20.9205ms
+2024-03-31 13:28:42.885 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:28:42.889 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:28:42.891 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 6.2224ms
+2024-03-31 13:28:42.900 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:28:42.905 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:28:43.008 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:28:43.020 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:28:43.026 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:28:43.028 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:28:43.029 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 128.8612ms
+2024-03-31 13:29:16.424 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:29:16.441 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:29:16.445 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 21.5993ms
+2024-03-31 13:29:16.456 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:29:16.460 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:29:16.461 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:29:16.468 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:29:16.475 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:29:16.478 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:29:16.481 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:29:16.483 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 27.0572ms
+2024-03-31 13:29:16.490 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:29:16.496 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:29:16.498 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 8.0923ms
+2024-03-31 13:29:16.502 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:29:16.506 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:29:16.507 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:29:16.515 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:29:16.517 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:29:16.518 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:29:16.519 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 16.9335ms
+2024-03-31 13:30:31.825 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:30:31.835 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:30:31.839 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.0429ms
+2024-03-31 13:30:31.850 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:30:31.853 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:30:31.855 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:30:31.860 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:30:31.868 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:30:31.870 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:30:31.872 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:30:31.874 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 23.531ms
+2024-03-31 13:30:31.882 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:30:31.885 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:30:31.886 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 4.3084ms
+2024-03-31 13:30:31.890 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:30:31.893 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:30:31.897 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:30:31.904 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:30:31.916 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:30:31.918 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:30:31.920 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 30.4218ms
+2024-03-31 13:31:06.292 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:31:06.305 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:31:06.307 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.8902ms
+2024-03-31 13:31:06.321 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:31:06.326 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:31:06.328 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2024-03-31 13:31:06.363 -05:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2024-03-31 13:31:06.366 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:31:06.374 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:31:06.379 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:31:06.381 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:31:06.384 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:31:06.386 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 65.0739ms
+2024-03-31 13:31:06.405 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:31:06.419 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:31:06.421 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 15.8874ms
+2024-03-31 13:31:06.430 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:31:06.435 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:31:06.437 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:31:06.445 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:31:06.449 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:31:06.451 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:31:06.452 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 22.4909ms
+2024-03-31 13:32:14.801 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:32:14.812 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:32:14.815 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.0042ms
+2024-03-31 13:32:14.833 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:32:14.840 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:32:14.844 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:32:14.854 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:32:14.857 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:32:14.861 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:32:14.866 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:32:14.867 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:32:14.868 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:32:14.870 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 37.2589ms
+2024-03-31 13:32:14.898 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:32:14.918 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:32:14.921 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 23.145ms
+2024-03-31 13:32:14.927 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:32:14.930 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:32:14.932 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:32:14.938 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:32:14.941 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:32:14.944 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:32:14.946 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 18.784ms
+2024-03-31 13:33:43.268 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:33:43.278 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:33:43.281 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 13.1024ms
+2024-03-31 13:33:43.309 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:33:43.316 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:33:43.320 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:33:43.333 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:33:43.336 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:33:43.342 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:33:43.348 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:33:43.351 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:33:43.353 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:33:43.355 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 46.4196ms
+2024-03-31 13:33:43.378 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:33:43.398 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:33:43.401 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 22.6144ms
+2024-03-31 13:33:43.409 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:33:43.414 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:33:43.418 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:33:43.430 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:33:43.433 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:33:43.434 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:33:43.436 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 27.1341ms
+2024-03-31 13:34:10.290 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:34:10.303 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:10.305 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.9335ms
+2024-03-31 13:34:10.319 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:34:10.324 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:10.327 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:34:10.337 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:34:10.340 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:34:10.345 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:34:10.351 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:34:10.354 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:34:10.358 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:34:10.374 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 54.7124ms
+2024-03-31 13:34:10.385 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:34:10.403 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:10.406 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 20.5609ms
+2024-03-31 13:34:10.414 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:34:10.426 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:10.429 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:34:10.440 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:34:10.446 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:34:10.449 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:34:10.451 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 37.0274ms
+2024-03-31 13:34:23.397 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:34:23.404 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:23.406 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 8.6632ms
+2024-03-31 13:34:23.414 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:34:23.421 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:23.424 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:34:23.452 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:34:23.455 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:34:23.468 -05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:34:23.481 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:34:23.483 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:34:23.485 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:34:23.487 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 73.7589ms
+2024-03-31 13:34:23.496 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:34:23.499 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:23.501 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.1187ms
+2024-03-31 13:34:23.506 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:34:23.511 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:34:23.519 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:34:23.530 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:34:23.532 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:34:23.580 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:34:23.610 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 104.7003ms
+2024-03-31 13:35:57.677 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:35:57.689 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:35:57.691 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 15.2319ms
+2024-03-31 13:35:57.702 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:35:57.706 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:35:57.707 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:35:57.717 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:35:57.722 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:35:57.729 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:35:57.734 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:35:57.736 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:35:57.737 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:35:57.739 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 36.9822ms
+2024-03-31 13:35:57.746 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:35:57.752 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:35:57.754 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 7.481ms
+2024-03-31 13:35:57.768 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:35:57.772 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:35:57.774 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:35:57.780 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:35:57.782 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:35:57.784 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:35:57.785 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 17.2899ms
+2024-03-31 13:36:19.773 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:36:19.789 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:36:19.792 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 20.7081ms
+2024-03-31 13:36:19.798 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:36:19.801 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:36:19.804 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:36:19.814 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:36:19.819 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:36:19.827 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:36:19.833 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:36:19.835 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:36:19.840 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:36:19.844 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 45.7043ms
+2024-03-31 13:36:19.853 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:36:19.856 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:36:19.857 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 4.5361ms
+2024-03-31 13:36:19.862 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:36:19.865 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:36:19.869 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:36:19.876 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:36:19.879 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:36:19.881 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:36:19.883 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 20.8241ms
+2024-03-31 13:37:07.768 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:37:07.781 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:37:07.784 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 16.0952ms
+2024-03-31 13:37:07.788 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:37:07.791 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:37:07.794 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:37:07.808 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:37:07.812 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:37:07.819 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:37:07.824 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:37:07.826 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:37:07.830 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:37:07.832 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 43.951ms
+2024-03-31 13:37:07.847 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:37:07.856 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:37:07.858 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 10.7908ms
+2024-03-31 13:37:07.862 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:37:07.866 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:37:07.868 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-03-31 13:37:07.877 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-03-31 13:37:07.879 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:37:07.881 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:37:07.886 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 401 0 null 23.5315ms
+2024-03-31 13:38:20.106 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:38:20.119 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:38:20.121 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.474ms
+2024-03-31 13:38:20.136 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:38:20.140 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:38:20.142 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:38:20.147 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:38:20.153 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:38:20.156 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:38:20.160 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:38:20.163 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 27.3386ms
+2024-03-31 13:38:20.172 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:38:20.176 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:38:20.178 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 5.478ms
+2024-03-31 13:38:20.183 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:38:20.190 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:38:20.191 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:38:20.193 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:38:20.195 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 13:38:20.197 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:38:20.198 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 15.4576ms
+2024-03-31 13:39:33.454 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/auth - null null
+2024-03-31 13:39:33.467 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:39:33.468 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/auth - 204 null null 14.8355ms
+2024-03-31 13:39:33.481 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/auth - application/json 40
+2024-03-31 13:39:33.485 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:39:33.486 -05:00 [INF] Executing endpoint 'HTTP: POST /auth'
+2024-03-31 13:39:33.501 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__username_0='?' (Size = 250), @__clave_1='?' (Size = 250)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[FechaActualiza], [u].[FechaIngresa], [u].[UserName], [u].[UserPassword], [u].[UserRol], [u].[UsuarioActualiza], [u].[UsuarioIngresa]
+FROM [DBO].[User] AS [u]
+WHERE [u].[UserName] = @__username_0 AND [u].[UserPassword] = @__clave_1
+2024-03-31 13:39:33.508 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:39:33.510 -05:00 [INF] Writing value of type 'UserAutenticateResponse' as Json.
+2024-03-31 13:39:33.512 -05:00 [INF] Executed endpoint 'HTTP: POST /auth'
+2024-03-31 13:39:33.516 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/auth - 200 null application/json; charset=utf-8 34.9591ms
+2024-03-31 13:39:33.524 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - null null
+2024-03-31 13:39:33.532 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:39:33.533 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/opciones/1 - 204 null null 9.3635ms
+2024-03-31 13:39:33.539 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/opciones/1 - application/json null
+2024-03-31 13:39:33.545 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:39:33.548 -05:00 [INF] Executing endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:39:33.550 -05:00 [INF] Setting HTTP status code 200.
+2024-03-31 13:39:33.552 -05:00 [INF] Writing value of type 'List`1' as Json.
+2024-03-31 13:39:33.555 -05:00 [INF] Executed endpoint 'HTTP: GET /opciones/{id}'
+2024-03-31 13:39:33.557 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/opciones/1 - 200 null application/json; charset=utf-8 18.4996ms
+2024-03-31 13:41:02.881 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5236/articulos - null null
+2024-03-31 13:41:02.888 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:41:02.890 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5236/articulos - 204 null null 9.6318ms
+2024-03-31 13:41:02.905 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 13:41:02.910 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:41:02.912 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-31 13:41:02.916 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-31 13:41:02.923 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-31 13:41:02.928 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-31 13:41:02.930 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 25.2492ms
+2024-03-31 13:41:10.246 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-31 13:41:10.255 -05:00 [INF] CORS policy execution successful.
+2024-03-31 13:41:10.260 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-03-31 13:41:10.262 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-03-31 13:41:10.266 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 401 0 null 20.1533ms

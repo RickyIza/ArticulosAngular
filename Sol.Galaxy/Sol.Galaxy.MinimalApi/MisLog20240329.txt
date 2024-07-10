@@ -1,0 +1,291 @@
+2024-03-29 20:40:26.449 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 20:40:27.559 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-29 20:40:27.562 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 20:40:27.563 -05:00 [INF] Hosting environment: Development
+2024-03-29 20:40:27.564 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-29 20:40:28.705 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger - null null
+2024-03-29 20:40:29.878 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger - 301 0 null 1193.4252ms
+2024-03-29 20:40:29.891 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-29 20:40:29.967 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 76.528ms
+2024-03-29 20:40:29.984 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui.css - null null
+2024-03-29 20:40:29.990 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-29 20:40:29.993 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 20:40:29.986 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - null null
+2024-03-29 20:40:30.002 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 20:40:30.014 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 22.5949ms
+2024-03-29 20:40:30.020 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 20:40:30.040 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 20.6269ms
+2024-03-29 20:40:30.073 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-03-29 20:40:30.078 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui.css - 200 143943 text/css 94.1399ms
+2024-03-29 20:40:30.121 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-29 20:40:30.125 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 138.3239ms
+2024-03-29 20:40:30.133 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - null null
+2024-03-29 20:40:30.141 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-03-29 20:40:30.144 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 11.7642ms
+2024-03-29 20:40:30.206 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 203.5288ms
+2024-03-29 20:40:30.233 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-29 20:40:30.235 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 249.0424ms
+2024-03-29 20:40:30.468 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-29 20:40:30.492 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-29 20:40:30.597 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 20:40:30.597 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - null null
+2024-03-29 20:40:30.623 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-03-29 20:40:30.625 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 28.1215ms
+2024-03-29 20:40:30.625 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.7532ms
+2024-03-29 20:40:30.790 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 322.7711ms
+2024-03-29 20:42:20.717 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/articulos - application/json 94
+2024-03-29 20:42:20.725 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:42:21.779 -05:00 [INF] Executing endpoint 'HTTP: POST /articulos'
+2024-03-29 20:42:22.561 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:48:57.406 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 20:48:57.790 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-29 20:48:57.794 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 20:48:57.796 -05:00 [INF] Hosting environment: Development
+2024-03-29 20:48:57.798 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-29 20:48:58.347 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-29 20:48:58.553 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 212.8222ms
+2024-03-29 20:48:58.566 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 20:48:58.566 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 20:48:58.575 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 9.5962ms
+2024-03-29 20:48:58.614 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.6651ms
+2024-03-29 20:48:58.830 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-29 20:48:58.843 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-29 20:48:58.973 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.2171ms
+2024-03-29 20:48:59.586 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 20:48:59.587 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 20:48:59.592 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 6.2264ms
+2024-03-29 20:48:59.611 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.0106ms
+2024-03-29 20:49:20.880 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/articulos - application/json 94
+2024-03-29 20:49:20.887 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:49:20.945 -05:00 [INF] Executing endpoint 'HTTP: POST /articulos'
+2024-03-29 20:49:21.096 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:56:09.506 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 20:56:09.895 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-29 20:56:09.904 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 20:56:09.906 -05:00 [INF] Hosting environment: Development
+2024-03-29 20:56:09.908 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-29 20:56:10.491 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-29 20:56:10.720 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 233.3224ms
+2024-03-29 20:56:10.736 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 20:56:10.739 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 20:56:10.745 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 8.9179ms
+2024-03-29 20:56:10.786 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.6402ms
+2024-03-29 20:56:10.866 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-29 20:56:10.878 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-29 20:56:11.018 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 151.7853ms
+2024-03-29 20:56:44.061 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5236/articulos - application/json 93
+2024-03-29 20:56:44.069 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:56:44.124 -05:00 [INF] Executing endpoint 'HTTP: POST /articulos'
+2024-03-29 20:56:44.275 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:56:49.805 -05:00 [INF] Executed DbCommand (147ms) [Parameters=[@p0='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [DBO].[Products] ([Cost], [FechaActualiza], [FechaIngresa], [Price], [ProductDescripcion], [Stock], [UsuarioActualiza], [UsuarioIngresa])
+OUTPUT INSERTED.[ProductCode]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-03-29 20:56:49.872 -05:00 [INF] Setting HTTP status code 200.
+2024-03-29 20:56:49.875 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-29 20:56:49.886 -05:00 [INF] Executed endpoint 'HTTP: POST /articulos'
+2024-03-29 20:56:49.899 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5236/articulos - 200 null application/json; charset=utf-8 5837.9139ms
+2024-03-29 20:56:58.000 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-29 20:56:58.007 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-29 20:56:58.010 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:56:58.439 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-29 20:56:58.466 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-29 20:56:58.470 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 470.3413ms
+2024-03-29 20:57:47.260 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos - application/json 94
+2024-03-29 20:57:47.267 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:57:47.271 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:57:47.290 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:57:47.294 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "Articulo articulo" from the request body as JSON.
+ ---> System.Text.Json.JsonException: ']' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 6 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: ']' is invalid after a single JSON value. Expected end of data. LineNumber: 6 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-29 20:57:47.324 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos - 400 null text/plain; charset=utf-8 63.8986ms
+2024-03-29 20:57:49.578 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos - application/json 94
+2024-03-29 20:57:49.583 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:57:49.584 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:57:49.588 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:57:49.590 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "Articulo articulo" from the request body as JSON.
+ ---> System.Text.Json.JsonException: ']' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 6 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: ']' is invalid after a single JSON value. Expected end of data. LineNumber: 6 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-29 20:57:49.607 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos - 400 null text/plain; charset=utf-8 29.5023ms
+2024-03-29 20:57:57.915 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-29 20:57:57.920 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-29 20:57:57.923 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:57:57.942 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-29 20:57:57.952 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-29 20:57:57.955 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 40.0627ms
+2024-03-29 20:58:10.728 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-29 20:58:10.733 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-29 20:58:10.735 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 20:58:10.739 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-29 20:58:10.744 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-29 20:58:10.747 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 19.5109ms
+2024-03-29 20:59:19.751 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos - application/json 94
+2024-03-29 20:59:19.761 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:59:19.762 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:59:19.765 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:59:19.767 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "Articulo articulo" from the request body as JSON.
+ ---> System.Text.Json.JsonException: ']' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 6 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: ']' is invalid after a single JSON value. Expected end of data. LineNumber: 6 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-29 20:59:19.783 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos - 400 null text/plain; charset=utf-8 32.0125ms
+2024-03-29 20:59:48.939 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos - application/json 94
+2024-03-29 20:59:48.945 -05:00 [INF] CORS policy execution successful.
+2024-03-29 20:59:48.947 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:59:48.951 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-29 20:59:48.954 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "Articulo articulo" from the request body as JSON.
+ ---> System.Text.Json.JsonException: ']' is invalid after a single JSON value. Expected end of data. Path: $ | LineNumber: 6 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: ']' is invalid after a single JSON value. Expected end of data. LineNumber: 6 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-03-29 20:59:48.971 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos - 400 null text/plain; charset=utf-8 32.1843ms
+2024-03-29 21:00:08.029 -05:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5236/articulos - application/json 90
+2024-03-29 21:00:08.034 -05:00 [INF] CORS policy execution successful.
+2024-03-29 21:00:08.035 -05:00 [INF] Executing endpoint 'HTTP: PUT /articulos'
+2024-03-29 21:00:08.037 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 21:00:11.836 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (Precision = 12) (Scale = 2) (DbType = Decimal), @p4='?' (Size = 250), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [DBO].[Products] SET [Cost] = @p0, [FechaActualiza] = @p1, [FechaIngresa] = @p2, [Price] = @p3, [ProductDescripcion] = @p4, [Stock] = @p5, [UsuarioActualiza] = @p6, [UsuarioIngresa] = @p7
+OUTPUT 1
+WHERE [ProductCode] = @p8;
+2024-03-29 21:00:12.661 -05:00 [INF] Setting HTTP status code 200.
+2024-03-29 21:00:12.663 -05:00 [INF] Writing value of type 'Articulo' as Json.
+2024-03-29 21:00:12.666 -05:00 [INF] Executed endpoint 'HTTP: PUT /articulos'
+2024-03-29 21:00:12.668 -05:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5236/articulos - 200 null application/json; charset=utf-8 4638.6943ms
+2024-03-29 21:00:24.607 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-29 21:00:24.612 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-29 21:00:24.614 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-29 21:00:24.619 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-29 21:00:24.628 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-29 21:00:24.630 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 22.9483ms
+2024-03-29 21:28:40.847 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-29 21:28:41.635 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-29 21:28:41.639 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-29 21:28:41.640 -05:00 [INF] Hosting environment: Development
+2024-03-29 21:28:41.641 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-29 21:28:42.064 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-29 21:28:42.378 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 317.332ms
+2024-03-29 21:28:42.391 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 21:28:42.392 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 21:28:42.405 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 12.9935ms
+2024-03-29 21:28:42.445 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.2267ms
+2024-03-29 21:28:42.519 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-29 21:28:42.533 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-29 21:28:42.726 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 206.8074ms
+2024-03-29 21:28:43.511 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-29 21:28:43.511 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-29 21:28:43.515 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 4.227ms
+2024-03-29 21:28:43.530 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.6756ms

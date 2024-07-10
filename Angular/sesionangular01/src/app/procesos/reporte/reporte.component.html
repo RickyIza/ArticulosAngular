@@ -1,0 +1,31 @@
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{nombre1}}</h5>
+        <div class="progress" [attr.demo]="porcentajeReporte" role="progressbar" [attr.ariaValuenow]="porcentajeReporte"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-success" [style.width]="porcentajeReporte+'%'"></div>
+        </div>
+        <br>
+        <app-incrementador [porcentaje]="porcentajeReporte" 
+        (cambioValor)="porcentajeReporte = $event"
+        tetoPrueba="Cambio de planes"></app-incrementador>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tarjeta Celeste</h5>
+        <div class="progress" role="progressbar" [attr.ariaValuenow]="procentajeCeleste" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" [style.width]="procentajeCeleste+'%'"></div>
+        </div>
+        <br>
+        <app-incrementador [porcentaje]="procentajeCeleste" 
+       (cambioValor)="actualizaCeleste($event)"
+        tetoPrueba="Segundo componente"></app-incrementador>
+      </div>
+    </div>
+  </div>
+</div>

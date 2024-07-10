@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "04485b30-aa68-4783-82f3-2596db26f6b2",
+		"name": "Net8Angular17",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1607432"
+	},
+	"item": [
+		{
+			"name": "ListaCliente",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyIjoianBlcmV6Iiwicm9sIjoib3BlcmFkb3IiLCJleHAiOjE3MTI3MTg5OTYsImlzcyI6ImdhbGF4eS5jb20iLCJhdWQiOiJnYWxheHkuY29tIn0.3mdPRYmsQNBRnnpX56jwxLSTWPdp5Zikd9dnnZTF_WU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5236/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5236",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RecuperarClientePorId",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyIjoianBlcmV6Iiwicm9sIjoib3BlcmFkb3IiLCJleHAiOjE3MTI3MTg5OTYsImlzcyI6ImdhbGF4eS5jb20iLCJhdWQiOiJnYWxheHkuY29tIn0.3mdPRYmsQNBRnnpX56jwxLSTWPdp5Zikd9dnnZTF_WU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5236/clientes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5236",
+					"path": [
+						"clientes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AgregarCliente",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyIjoianBlcmV6Iiwicm9sIjoib3BlcmFkb3IiLCJleHAiOjE3MTI3MTg5OTYsImlzcyI6ImdhbGF4eS5jb20iLCJhdWQiOiJnYWxheHkuY29tIn0.3mdPRYmsQNBRnnpX56jwxLSTWPdp5Zikd9dnnZTF_WU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCliente\": 0,\r\n    \"nombres\": \"MARITZA\",\r\n    \"apellidos\": \"GUEVARA\",\r\n    \"tipoCliente\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5236/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5236",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarCliente",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyIjoianBlcmV6Iiwicm9sIjoib3BlcmFkb3IiLCJleHAiOjE3MTI3MTg5OTYsImlzcyI6ImdhbGF4eS5jb20iLCJhdWQiOiJnYWxheHkuY29tIn0.3mdPRYmsQNBRnnpX56jwxLSTWPdp5Zikd9dnnZTF_WU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCliente\": 5,\r\n    \"nombres\": \"MARITZA\",\r\n    \"apellidos\": \"GUTARRA\",\r\n    \"tipoCliente\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5236/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5236",
+					"path": [
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarCliente",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VyIjoianBlcmV6Iiwicm9sIjoib3BlcmFkb3IiLCJleHAiOjE3MTI3MTg5OTYsImlzcyI6ImdhbGF4eS5jb20iLCJhdWQiOiJnYWxheHkuY29tIn0.3mdPRYmsQNBRnnpX56jwxLSTWPdp5Zikd9dnnZTF_WU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idCliente\": 5,\r\n    \"nombres\": \"MARITZA\",\r\n    \"apellidos\": \"GUTARRA\",\r\n    \"tipoCliente\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5236/clientes/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5236",
+					"path": [
+						"clientes",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

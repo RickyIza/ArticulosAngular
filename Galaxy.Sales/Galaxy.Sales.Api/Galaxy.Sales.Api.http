@@ -1,0 +1,10 @@
+@Galaxy.Sales.Api_HostAddress = http://localhost:5105
+@UrlTest = https://api.publicapis.org/entries
+
+GET {{Galaxy.Sales.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{UrlTest}} 
+

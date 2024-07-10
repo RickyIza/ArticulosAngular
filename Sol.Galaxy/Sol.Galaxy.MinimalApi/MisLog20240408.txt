@@ -1,0 +1,120 @@
+2024-04-08 21:17:05.794 -05:00 [INF] Executed DbCommand (308ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [SalesGalaxy];
+2024-04-08 21:17:05.934 -05:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [SalesGalaxy] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-04-08 21:17:05.957 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 21:17:06.357 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-04-08 21:17:06.389 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 21:17:06.508 -05:00 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 21:17:06.533 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-08 21:17:06.551 -05:00 [INF] Applying migration '20240409021643_MigracionBDSQL'.
+2024-04-08 21:17:06.608 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [CustomerType] (
+    [CustomerTypeId] int NOT NULL IDENTITY,
+    [Description] nvarchar(max) NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_CustomerType] PRIMARY KEY ([CustomerTypeId])
+);
+2024-04-08 21:17:06.615 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[Option] (
+    [OptionId] int NOT NULL IDENTITY,
+    [Title] nvarchar(250) NULL,
+    [Url] nvarchar(250) NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_Option] PRIMARY KEY ([OptionId])
+);
+2024-04-08 21:17:06.623 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[Products] (
+    [ProductCode] int NOT NULL IDENTITY,
+    [ProductDescripcion] nvarchar(250) NULL,
+    [Price] decimal(12,2) NOT NULL,
+    [Stock] int NOT NULL,
+    [Cost] decimal(12,2) NOT NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([ProductCode])
+);
+2024-04-08 21:17:06.633 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[User] (
+    [UserId] int NOT NULL IDENTITY,
+    [UserName] nvarchar(250) NULL,
+    [UserPassword] nvarchar(250) NULL,
+    [UserRol] nvarchar(150) NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([UserId])
+);
+2024-04-08 21:17:06.648 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[Customer] (
+    [CustomerId] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(250) NULL,
+    [LastName] nvarchar(250) NULL,
+    [CustomerTypeId] int NOT NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_Customer] PRIMARY KEY ([CustomerId]),
+    CONSTRAINT [FK_Customer_CustomerType_CustomerTypeId] FOREIGN KEY ([CustomerTypeId]) REFERENCES [CustomerType] ([CustomerTypeId]) ON DELETE CASCADE
+);
+2024-04-08 21:17:06.660 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[UserOption] (
+    [UserOptionId] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [OptionId] int NOT NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_UserOption] PRIMARY KEY ([UserOptionId]),
+    CONSTRAINT [FK_UserOption_Option_OptionId] FOREIGN KEY ([OptionId]) REFERENCES [DBO].[Option] ([OptionId]) ON DELETE CASCADE,
+    CONSTRAINT [FK_UserOption_User_UserId] FOREIGN KEY ([UserId]) REFERENCES [DBO].[User] ([UserId]) ON DELETE CASCADE
+);
+2024-04-08 21:17:06.667 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DBO].[Invoice] (
+    [Id] int NOT NULL IDENTITY,
+    [InvoiceDate] datetime2 NOT NULL,
+    [Amount] decimal(12,2) NOT NULL,
+    [CustomerId] int NOT NULL,
+    [UsuarioIngresa] nvarchar(max) NULL,
+    [FechaIngresa] datetime2 NOT NULL,
+    [UsuarioActualiza] nvarchar(max) NULL,
+    [FechaActualiza] datetime2 NOT NULL,
+    CONSTRAINT [PK_Invoice] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Invoice_Customer_CustomerId] FOREIGN KEY ([CustomerId]) REFERENCES [DBO].[Customer] ([CustomerId]) ON DELETE CASCADE
+);
+2024-04-08 21:17:06.678 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Customer_CustomerTypeId] ON [DBO].[Customer] ([CustomerTypeId]);
+2024-04-08 21:17:06.682 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Invoice_CustomerId] ON [DBO].[Invoice] ([CustomerId]);
+2024-04-08 21:17:06.692 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserOption_OptionId] ON [DBO].[UserOption] ([OptionId]);
+2024-04-08 21:17:06.698 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserOption_UserId] ON [DBO].[UserOption] ([UserId]);
+2024-04-08 21:17:06.705 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240409021643_MigracionBDSQL', N'8.0.1');

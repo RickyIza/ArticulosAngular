@@ -1,0 +1,60 @@
+{{miformulario.invalid}}
+
+<h4>Inicie Sesion</h4>
+<hr>
+<form autocomplete="off" #miformulario="ngForm" (ngSubmit)="validar(miformulario)">
+
+  <div>
+
+    <div class="form-group row">
+      <label class="col-2 col-form-label">Usuario</label>
+      <div class="col-8">
+
+        <input class="form-control"
+               type="text"
+               name="user"
+               placeholder="Usuario"
+               [(ngModel)]="usuarioAutentica.user"
+               required
+               minlength="4"
+               [class.is-invalid]="miuser.invalid && miuser.touched"
+               #miuser="ngModel"
+               >
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-2 col-form-label">Clave</label>
+      <div class="col-8">
+
+        <input class="form-control"
+               type="password"
+               name="pwd"
+               [(ngModel)]="usuarioAutentica.password"
+               required=""
+               minlength="5"
+               placeholder="Clave"
+               [class.is-invalid]="mipwd.invalid && mipwd.touched"
+               #mipwd="ngModel">
+
+        <small *ngIf="mipwd.errors?.['required'] && mipwd.touched" class="form-text text-danger"
+        > Debes ingresar algo</small>
+        <small *ngIf="mipwd.errors?.['minlength']" class="form-text text-danger"
+        > Debes ingresar minimos 5 caracteres</small>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="form-group row">
+    <label class="col-2 col-form-label">&nbsp;</label>
+    <div class="input-group col-md-8">
+      <button type="submit" 
+      class="btn btn-outline-primary btn-block">
+        Autenticar
+      </button>
+    </div>
+  </div>
+
+</form>

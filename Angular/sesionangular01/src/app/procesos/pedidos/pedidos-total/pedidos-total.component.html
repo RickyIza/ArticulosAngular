@@ -1,0 +1,25 @@
+<div class="card border-secondary"
+     *ngIf='pedidoItems().length'>
+
+  <div class='card-header text-secondary fw-bold'>
+    Totales
+  </div>
+
+  <div class='card-body'>
+    <div class="row">
+      <div class="col-md-5">Subtotal:</div>
+      <div class="col-md-4 text-end">{{subTotal() | currency}}</div>
+    </div>
+    
+
+    <div class="row">
+      <div class="col-md-5">Impuestos:</div>
+      <div class="col-md-4 text-end">{{impuesto() | currency}}</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5"><b>Total:</b></div>
+      <div class="col-md-4 text-end"><b>{{total() | currency}}</b></div>
+    </div>
+  </div>
+</div>

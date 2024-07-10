@@ -1,0 +1,27 @@
+<!-- <div *ngIf='item() as cartItem'> -->
+<div *ngIf="item() as pedidoItem">
+  <div class="row mb-2">
+    <div class="col-md-4">
+      {{pedidoItem.articulo.nombre}}
+    </div>
+    <div class="col-md-2 text-center">
+      {{ pedidoItem.articulo.precio| currency }}
+    </div>
+    <div class="col-md-2 text-center">
+      <select class="form-select" aria-label="Quantity list" style="margin-bottom: 10px; width:60px; margin: 0 auto"
+        [ngModel]="pedidoItem.cantidad" (ngModelChange)="onCantidadSelected($event)">
+        <option disabled value="">--Select a quantity--</option>
+        <option *ngFor="let q of arregloNumero">{{ q }}</option>
+      </select>
+    </div>
+    <div class="col-md-2 text-center">
+      {{ subTotal() | currency }}
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-warning" (click)="removeFromCart()">
+        Delete
+      </button>
+    </div>
+  </div>
+
+</div>

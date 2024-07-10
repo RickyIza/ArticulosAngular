@@ -1,0 +1,23 @@
+<div class="card border-secondary">
+    <div class="card-header text-secondary fw-bold">
+      {{ pageTitle }}
+    </div>
+  
+    <div class="card-body">
+      <div *ngIf="pedidoItems().length; else noItems">
+        <div class="row">
+          <div class="col-md-4 fw-bold ">Articulo</div>
+          <div class="col-md-2 fw-bold text-center">Precio</div>
+          <div class="col-md-2 fw-bold text-center">Cantidad</div>
+          <div class="col-md-2 fw-bold text-center">Sub Total</div>
+        </div>
+  
+        <!-- Display the cart items -->
+        <div *ngFor="let item of pedidoItems()">
+          <app-pedidos-item [pedidoItem]='item' />
+        </div>
+      </div>
+    </div>
+  
+    <ng-template #noItems> No items in cart </ng-template>
+  </div>

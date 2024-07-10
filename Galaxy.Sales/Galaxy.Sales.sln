@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Sales.Api", "Galaxy.Sales.Api\Galaxy.Sales.Api.csproj", "{C0FD568D-DF29-4FD6-9DD7-23F8D065D997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comunes", "Comunes\Comunes.csproj", "{8B72E15B-0998-453C-96BA-B92ADB1F38D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0FD568D-DF29-4FD6-9DD7-23F8D065D997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FD568D-DF29-4FD6-9DD7-23F8D065D997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FD568D-DF29-4FD6-9DD7-23F8D065D997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FD568D-DF29-4FD6-9DD7-23F8D065D997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B72E15B-0998-453C-96BA-B92ADB1F38D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B72E15B-0998-453C-96BA-B92ADB1F38D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B72E15B-0998-453C-96BA-B92ADB1F38D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B72E15B-0998-453C-96BA-B92ADB1F38D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E428F249-E2DC-4ED3-BD1B-D7768AF44B33}
+	EndGlobalSection
+EndGlobal

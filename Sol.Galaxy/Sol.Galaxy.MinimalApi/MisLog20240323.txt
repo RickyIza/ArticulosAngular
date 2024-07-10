@@ -1,0 +1,163 @@
+2024-03-23 19:35:51.411 -05:00 [INF] User profile is available. Using 'C:\Users\Miguelon\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-23 19:35:53.622 -05:00 [INF] Now listening on: http://localhost:5236
+2024-03-23 19:35:53.627 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-23 19:35:53.629 -05:00 [INF] Hosting environment: Development
+2024-03-23 19:35:53.631 -05:00 [INF] Content root path: D:\VIsualStudio\2022\Galaxy\Sample\Sol.Galaxy\Sol.Galaxy.MinimalApi
+2024-03-23 19:35:54.878 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/index.html - null null
+2024-03-23 19:35:55.266 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/index.html - 200 null text/html;charset=utf-8 395.3015ms
+2024-03-23 19:35:55.287 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - null null
+2024-03-23 19:35:55.295 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript; charset=utf-8 8.5476ms
+2024-03-23 19:35:55.303 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/_vs/browserLink - null null
+2024-03-23 19:35:55.360 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.4139ms
+2024-03-23 19:35:55.537 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - null null
+2024-03-23 19:35:55.551 -05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-03-23 19:35:55.563 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/swagger/favicon-32x32.png - null null
+2024-03-23 19:35:55.592 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-03-23 19:35:55.595 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/favicon-32x32.png - 200 628 image/png 32.1011ms
+2024-03-23 19:35:55.767 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 229.9261ms
+2024-03-23 19:36:04.851 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:36:05.770 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:36:06.512 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:36:09.584 -05:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:36:09.752 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:36:09.766 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 4915.3312ms
+2024-03-23 19:45:04.843 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulospage?nropagina=1&regpagina=3 - null null
+2024-03-23 19:45:04.854 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:45:04.860 -05:00 [INF] Executing endpoint 'HTTP: GET /articulospage'
+2024-03-23 19:45:04.870 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:45:05.437 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:45:05.454 -05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-23 19:45:05.457 -05:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-03-23 19:45:05.749 -05:00 [INF] Executed DbCommand (199ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-23 19:45:05.764 -05:00 [INF] Executed endpoint 'HTTP: GET /articulospage'
+2024-03-23 19:45:05.766 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulospage?nropagina=1&regpagina=3 - 200 null application/json; charset=utf-8 924.3486ms
+2024-03-23 19:45:55.501 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulospage?nropagina=1&regpagina=3 - null null
+2024-03-23 19:45:55.524 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:45:55.528 -05:00 [INF] Executing endpoint 'HTTP: GET /articulospage'
+2024-03-23 19:45:55.532 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:45:55.611 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:45:55.619 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-03-23 19:45:55.626 -05:00 [INF] Executed endpoint 'HTTP: GET /articulospage'
+2024-03-23 19:45:55.633 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulospage?nropagina=1&regpagina=3 - 200 null application/json; charset=utf-8 131.9829ms
+2024-03-23 19:47:11.991 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:47:12.004 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:47:12.006 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:47:12.008 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:47:15.023 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:47:15.029 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:47:15.032 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 3041.6388ms
+2024-03-23 19:50:45.757 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:50:45.767 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:50:45.769 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:50:45.771 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:50:48.552 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:50:48.562 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:50:48.564 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 2807.6721ms
+2024-03-23 19:55:59.770 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:55:59.782 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:55:59.783 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:55:59.785 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:56:05.145 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:56:05.151 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:56:05.153 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 5383.3538ms
+2024-03-23 19:56:34.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:56:34.731 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:56:34.732 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:56:34.735 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:56:34.741 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:56:34.753 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:56:34.761 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 40.7423ms
+2024-03-23 19:56:49.647 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:56:49.654 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:56:49.658 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:56:49.662 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:56:49.670 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:56:49.684 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:56:49.686 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 39.3846ms
+2024-03-23 19:58:04.412 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:58:04.422 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:58:04.424 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:58:04.425 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:58:04.436 -05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:58:04.441 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:58:04.451 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 39.2149ms
+2024-03-23 19:58:37.340 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 19:58:37.353 -05:00 [INF] CORS policy execution successful.
+2024-03-23 19:58:37.356 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 19:58:37.359 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 19:58:37.366 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 19:58:37.389 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 19:58:37.393 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 60.0493ms
+2024-03-23 20:08:16.010 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 20:08:16.027 -05:00 [INF] CORS policy execution successful.
+2024-03-23 20:08:16.029 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 20:08:16.031 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 20:08:17.963 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 20:08:17.967 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 20:08:17.970 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 1962.5319ms
+2024-03-23 23:50:50.534 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 23:50:50.629 -05:00 [INF] CORS policy execution successful.
+2024-03-23 23:50:50.632 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 23:50:50.635 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 23:51:04.364 -05:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 23:51:04.407 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 23:51:04.411 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 13888.6802ms
+2024-03-23 23:51:48.310 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 23:51:48.320 -05:00 [INF] CORS policy execution successful.
+2024-03-23 23:51:48.366 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 23:51:48.367 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 23:51:48.413 -05:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 23:51:48.430 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 23:51:48.432 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 123.3769ms
+2024-03-23 23:52:12.943 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 23:52:12.957 -05:00 [INF] CORS policy execution successful.
+2024-03-23 23:52:12.958 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 23:52:12.961 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 23:52:12.969 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 23:52:12.983 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 23:52:12.986 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 42.6371ms
+2024-03-23 23:52:39.840 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5236/articulos - null null
+2024-03-23 23:52:39.851 -05:00 [INF] CORS policy execution successful.
+2024-03-23 23:52:39.852 -05:00 [INF] Executing endpoint 'HTTP: GET /articulos'
+2024-03-23 23:52:40.007 -05:00 [INF] Hizo el instanciamiento de Articulo Data
+2024-03-23 23:52:40.011 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductCode], [p].[Cost], [p].[FechaActualiza], [p].[FechaIngresa], [p].[Price], [p].[ProductDescripcion], [p].[Stock], [p].[UsuarioActualiza], [p].[UsuarioIngresa]
+FROM [DBO].[Products] AS [p]
+2024-03-23 23:52:40.015 -05:00 [INF] Executed endpoint 'HTTP: GET /articulos'
+2024-03-23 23:52:40.027 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5236/articulos - 200 null application/json; charset=utf-8 186.5862ms

@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="col-3">
+    <button class="btn btn-primary" (click)="nuevoArticulo()">
+      Nuevo
+    </button>
+  </div>
+
+</div>
+
+<table class="table table-striped table-hover table-bordered">
+  <thead class="table-primary">
+    <tr>
+      <th scope="col">Codigo</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Stock</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- <tr *ngFor="let item of articuloLista">
+        <th scope="row">{{item.codigo}}</th>
+        <td>{{item.nombre}}</td>
+        <td>{{item.precio}}</td>
+        <td>{{item.stock}}</td>
+      </tr> -->
+    @for (item of articuloLista; track item.codigo) {
+    <tr>
+      <th scope="row">{{item.codigo}}</th>
+      <td>{{item.nombre}}</td>
+      <td>{{item.precio}}</td>
+      <td>{{item.stock}}</td>
+      <td>
+        <button class="btn btn-primary" (click)="mostrarArticulo(item)">
+          <i class="bi bi-pencil"></i>
+        </button>
+        <a class="btn btn-primary" [routerLink]="['/articulodetalle', item.codigo]">
+          <i class="bi bi-pencil"></i></a>
+          <button class="btn btn-primary" (click)="agregarCarrito(item)" title="Agregar al carrito">
+            <i class="bi bi-cart-plus"></i>
+          </button>
+          <button class="btn btn-primary" (click)="eliminar(item)" title="Agregar al carrito">
+            <i class="bi bi-cart-plus"></i>
+          </button>
+      </td>
+    </tr>
+    }
+  </tbody>
+</table>

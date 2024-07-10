@@ -1,0 +1,53 @@
+<p>Editar Articulo</p>
+<hr>
+<form action="" [formGroup]="articuloForm" (ngSubmit)="guardar()">
+    <div class="row">
+        <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Codigo</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" formControlName="codigo" placeholder="Codigo">
+                <small *ngIf="articuloForm.controls.codigo.invalid && articuloForm.controls.codigo.touched"
+                    class="form-text text-danger"> Debes ingresar
+                    algo</small>
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" formControlName="nombre" placeholder="Nombre">
+                <small *ngIf="nombreArticulo.errors?.['required'] && nombreArticulo.touched" 
+                class="form-text text-danger">El valor del nombre es obligatorio
+                    </small>
+                <small *ngIf="nombreArticulo.errors?.['minlength'] && nombreArticulo.touched" 
+                class="form-text text-danger"> Debes ingresar al menos 3 caracteres</small>
+                <small *ngIf="nombreArticulo.errors?.['pattern'] && nombreArticulo.touched" 
+                class="form-text text-danger"> Debe ingresar solo textos, no numeros</small>
+            </div>
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label">Precio</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" formControlName="precio" placeholder="Precio">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label">Costo</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" formControlName="costo" placeholder="Costo">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="" class="col-sm-2 col-form-label">Stock</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" formControlName="stock" placeholder="0">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <button class="col-sm-3 btn btn-primary" type="submit">Guardar</button>
+        <button class="col-sm-3 btn btn-secondary" type="button" (click)="regresar()">Cancelar</button>
+
+    </div>
+
+</form>
